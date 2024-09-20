@@ -1,12 +1,11 @@
 # Cube
 A quick spinning cube project. Runs raw in the terminal with no real C libraries like curses. Takes keyboard input using putchar(). Takes a simple spinning cube and adds a ton of features, including zooming, terminal resizing, and mouse and keyboard control. It also uses a small Python script to get your mouse position for mouse control but is otherwise all written in C. It Probably only works on Mac.
 
-Built off of this spinning C cube: https://github.com/servetgulnaroglu/cube.c  
+Built off of this spinning C cube: [https://github.com/servetgulnaroglu/cube.c](https://github.com/servetgulnaroglu/cube.c)
 
-Lighting is based on this spinning C donut: https://www.a1k0n.net/2011/07/20/donut-math.html
+Lighting is based on this spinning C donut: [https://www.a1k0n.net/2011/07/20/donut-math.html](https://www.a1k0n.net/2011/07/20/donut-math.html)
 
 Thanks and huge credit to both of these projects.
-
 ## Features  
  - Cube fits as you adjust the size of the terminal window
  - Lighting calculated from surface normals of each side (press <kbd>l</kbd> to toggle light on and off to see the difference)
@@ -51,4 +50,8 @@ Use the mouse to control the direction the cube is facing.
 - Note that the mouse control is based on your mouse's _absolute_ position, so this will only work accurately when the cube is near the middle of your screen.  
 - Mouse control is also resolution-dependent and is defaulted to 1440x900. If you want this to work on a different size display, change the 'xres' and 'yres' variables near the top of cube.c. 
 
+
+## Video
+
+https://github.com/user-attachments/assets/24459ecb-415d-4673-a66c-fe65a768cbc9
 
